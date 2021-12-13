@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Kiểm tra ngày trong tháng</title>
+</head>
+<body>
+<script>
+let month = parseInt(prompt('nhập số tháng?', ''));
+let message = "";
+switch (month) {
+case 1:
+case 3:
+case 5:
+case 7:
+case 8:
+message ='31';
+break;
+case 2:
+message ='28';
+break;
+
+case 4:
+case 6:
+case 9:
+case 11:
+alert('30');
+break;
+    message = 'tháng nhập vào không hợp lệ';
+}
+</script>
+</body>
+</html>
